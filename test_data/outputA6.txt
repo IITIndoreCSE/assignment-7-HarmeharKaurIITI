@@ -1,0 +1,4 @@
+Virat Avg: 56
+Rohit Avg: 82
+Dhoni Avg: 65
+Best Player: Rohit with Avg 82

@@ -1,0 +1,6 @@
+5
+201 Alice IT 50000
+202 Bob HR 40000
+203 Charlie IT 60000
+204 David Sales 35000
+205 Eve HR 45000

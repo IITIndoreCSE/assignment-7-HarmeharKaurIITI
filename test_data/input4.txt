@@ -1,0 +1,6 @@
+4
+1 CppPrimer Lippman 450
+2 AlgoCLRS Cormen 650
+3 CleanCode Martin 550
+4 DSinC++ Sahni 400
+CleanCode

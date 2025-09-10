@@ -1,0 +1,11 @@
+Department-wise Salary:
+IT: 110000
+HR: 85000
+Sales: 35000
+Highest Paid: Charlie (60000)
+Sorted by Salary:
+Charlie 60000
+Alice 50000
+Eve 45000
+Bob 40000
+David 35000

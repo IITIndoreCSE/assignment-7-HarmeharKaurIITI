@@ -1,0 +1,5 @@
+Roll: 101 Name: Alice Total: 433 Avg: 86.6
+Roll: 102 Name: Bob Total: 358 Avg: 71.6
+Roll: 103 Name: Charlie Total: 450 Avg: 90
+
+Topper: Charlie (Roll 103) with Total 450
