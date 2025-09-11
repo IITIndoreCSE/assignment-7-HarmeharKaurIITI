@@ -20,16 +20,46 @@ using namespace std;
 // TODO: Define your structure here
 struct BankAccount {
     // your code here
+    int accNo;
+    string name;
+    int balance;
 };
 
 // TODO: Implement input processing
 void processInput(vector<BankAccount> &accounts) {
     // your code here
+    int n;
+    cin>>n;
+    for(int j=0;j<n;j++){
+        BankAccount b;
+        cin>>b.accNo>>b.name>>b.balance;
+        accounts.push_back(b);
+    
+    }    
 }
 
 // TODO: Implement operations
 void performOperations(vector<BankAccount> &accounts) {
     // your code here
+    int acc;
+    int choice;
+    int amount;
+    cin>>acc>>choice>>amount;
+    int indexno;
+    for (int k=0;k<accounts.size();k++){
+    if (accounts[k].accNo==acc){
+    indexno=k;
+    }
+    }
+    
+    if (choice==1){
+    accounts[indexno].balance+=amount;
+    }
+    else if (choice==2){
+        if (accounts[indexno].balance>=amount){
+            accounts[indexno].balance-=amount;
+        }
+    }
 }
 
 // -------------------------
@@ -42,11 +72,11 @@ int main() {
     performOperations(accounts);
 
     // Output final state of all accounts
-    // for (int i = 0; i < (int) accounts.size(); i++) {
-    //     cout << accounts[i].accNo << " "
-    //          << accounts[i].name << " "
-    //          << accounts[i].balance << "\n";
-    // }
+    for (int i = 0; i < (int) accounts.size(); i++) {
+         cout << accounts[i].accNo << " "
+              << accounts[i].name << " "
+              << accounts[i].balance << "\n";
+     }
 
     return 0;
 }
