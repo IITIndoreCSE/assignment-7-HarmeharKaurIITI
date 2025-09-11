@@ -32,7 +32,7 @@ This will only test question1.cpp with its input cases.
 **To run a program manually with a specific input file:**
 ```bash
 g++  {filename}.cpp -o {filname}
-./{filename} < test_data/input1.txt > test_data/output1.txt
+./{filename} < test_data/input1.txt > output.txt
 ```
 
 Replace `{filename}` with the appropriate question number and `input1.txt` with the desired input file.
