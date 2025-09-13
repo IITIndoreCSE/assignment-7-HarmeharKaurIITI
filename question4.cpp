@@ -38,9 +38,10 @@ void processInput(vector<Book> &books, string &searchTitle) {
         Book b;
         cin>>b.id>>b.title>>b.author>>b.price;
         books.push_back(b);
-        cin>>searchTitle;
+        
     
     }
+    cin>>searchTitle;
 }
 
 // TODO: Implement operations
@@ -63,9 +64,9 @@ void performOperations(vector<Book> &books, const string &searchTitle) {
         return a.price < b.price; 
     });
 
-    cout << "\nSorted books by Price:\n";
-    for (const auto &book : books) {
-        cout <<book.id<<" "<<book.title<<" ("<< book.price<<")"<< endl;
+    cout << "Sorted Books by Price:"<<endl;
+    for (int k=0;k<books.size();k++) {
+        cout<<books[k].title<<" ("<<books[k].price<<")"<<endl;
     }
 }
 
